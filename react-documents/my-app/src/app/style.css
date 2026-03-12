@@ -1,0 +1,87 @@
+body {
+  --bs-body-color: #1f1f1f;
+  background-color: #ffeeeb;
+  font-family: "Montserrat", sans-serif;
+}
+
+body, body * {
+  font-weight: 700 !important;
+}
+
+.nav {
+  --bs-nav-link-color: #ffeeeb;
+}
+
+#topMenu .nav-item,
+#topMenu .nav-link {
+  color: #ffffff !important;
+}
+
+h1, h2, h3, h4, h5, h6, .nav-item, .footer-heading {
+  font-family: "Bebas Neue", sans-serif;
+  color: #eb002b;
+}
+
+#topMenu {
+  background-color: #eb002b;
+}
+
+#bottomMenu {
+  background-color: #ffeeeb;
+}
+
+#heroIntro h1 {
+  color: #eb002b;
+}
+
+#heroIntro {
+  background-color: #ffffff00;
+}
+
+#heroIntro p {
+  color: #005484;
+  max-width: 1000px;
+}
+
+p {
+  color: #005484;
+}
+
+.heroPhotoBox {
+  width: 90%;
+  height: 700px;
+  background: url("https://images.squarespace-cdn.com/content/v1/5cfa1d34745eb00001f70cc3/1684370630721-YGWBPMCKJDCDGM55P7KO/WayfinderWaikiki_09.jpg?format=2500w") no-repeat center center;
+  background-size: cover;
+}
+
+#heroImage {
+  min-height: 100vh;
+  background: url("https://images.squarespace-cdn.com/content/v1/5cfa1d34745eb00001f70cc3/1720650542995-ICUM1WRHSDJC8XLXDJ2O/20230512-RedFish1303-Lo-2.jpg?format=2500w") no-repeat center center;
+  background-size: cover;
+}
+
+.footer-heading {
+  color: #eb002b;
+  font-size: 2rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.footer-text {
+  color: #005484;
+  font-size: 1.2rem;
+}
+
+#bottomMenu hr {
+  border-color: #e6cfc9;
+  opacity: 1;
+}
+
+#bottomMenu a[href*="google.com/maps"] {
+  color: #eb002b;
+}
+
+#bottomMenu .bi-instagram {
+  color: #eb002b;
+  font-size: 1.6rem;
+}

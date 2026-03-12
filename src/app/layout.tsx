@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
-import Footer from '@/components/Footer';
-import NavBar from '@/components/Navbar';
+import "./redfish.css";
+import Header from "@/components/redfish/Header";
+import Footer from "@/components/redfish/Footer";
 import Providers from './providers';
 
 
@@ -27,12 +28,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const classString = `${geistSans.variable} ${geistMono.variable} wrapper`;
+  const classString = `${geistSans.variable} ${geistMono.variable} wrapper redfish-theme`;
   return (
     <html lang="en">
       <body className={classString}>
        <Providers>
-          <NavBar />
+          <Header />
           {children}
           <Footer />
         </Providers>
